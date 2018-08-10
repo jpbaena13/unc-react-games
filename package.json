@@ -1,0 +1,50 @@
+{
+  "name": "unc-react-component-base",
+  "version": "1.0.0",
+  "description": "React Component Base",
+  "main": "dist/index.js",
+  "scripts": {
+    "wp": "webpack",
+    "wp-dev": "webpack --config ./webpack.config.dev.js",
+    "test": "ava",
+    "build": "babel src --out-dir dist"
+  },
+  "keywords": [],
+  "author": "Juan Baena <juan.baena@unicodigital.co>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-rc.1",
+    "@babel/core": "^7.0.0-rc.1",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-rc.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-rc.1",
+    "@babel/preset-env": "^7.0.0-rc.1",
+    "@babel/preset-react": "^7.0.0-rc.1",
+    "ava": "^1.0.0-beta.6",
+    "babel-core": "^7.0.0-beta.3",
+    "babel-eslint": "^8.2.6",
+    "babel-loader": "^8.0.0-beta.4",
+    "css-loader": "^1.0.0",
+    "enzyme": "^3.4.1",
+    "enzyme-adapter-react-16": "^1.2.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-modernizr-loader": "^4.0.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "prop-types": "^15.6.2"
+  }
+}
