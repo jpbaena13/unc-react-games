@@ -4,7 +4,7 @@ import React from 'react';
 
 import { render } from 'react-dom';
 
-import MyComponent from '../src';
+import MyComponent from '../dist';
 
 render(
   <MyComponent />,

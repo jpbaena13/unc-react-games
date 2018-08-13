@@ -27,7 +27,8 @@ module.exports = {
   resolve: {
     alias: {
       modernizr$: path.resolve(__dirname, ".modernizrrc.js")
-    }
+    },
+    extensions: ['.js', '.jsx']
   },
   target: 'web',
   mode: 'development'
