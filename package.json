@@ -46,5 +46,21 @@
   "dependencies": {
     "classnames": "^2.2.6",
     "prop-types": "^15.6.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpbaena13/unc-react-*.git"
+  },
+  "keywords": [
+    "react",
+    "js",
+    "javascript",
+    "jpbaena13",
+    "react-component",
+  ],
+  "bugs": {
+    "url": "https://github.com/jpbaena13/unc-react-*/issues"
+  },
+  "homepage": "https://github.com/jpbaena13/unc-react-*.git"
+
 }
