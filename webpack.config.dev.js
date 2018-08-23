@@ -6,16 +6,19 @@ module.exports = {
     path: path.resolve(__dirname, 'example/dist'),
     filename: 'unc-react-component-base.js'
   },
+  devServer: {
+    port: 9000,
+  },
   module: {
     rules: [
       {
-        test:/\.jsx?$/,
+        test: /\.jsx?$/,
         exclude: /(node_modules)/,
-        use: [ 'babel-loader', 'eslint-loader']
+        use: ['babel-loader', 'eslint-loader']
       },
       {
         test: /\.css$/,
-        use: ['style-loader','css-loader']
+        use: ['style-loader', 'css-loader']
       },
       {
         test: /\.modernizrrc\.js$/,

@@ -6,10 +6,17 @@
   "scripts": {
     "wp": "webpack",
     "wp-dev": "webpack --config ./webpack.config.dev.js",
+    "wp:dev": "webpack-dev-server --config ./webpack.config.dev.js",
     "test": "ava",
     "build": "babel src --out-dir dist --copy-files"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "js",
+    "javascript",
+    "jpbaena13",
+    "react-component"
+  ],
   "author": "Juan Baena <juan.baena@unicodigital.co>",
   "license": "MIT",
   "peerDependencies": {
@@ -41,6 +48,7 @@
     "style-loader": "^0.22.1",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
     "webpack-modernizr-loader": "^4.0.1"
   },
   "dependencies": {
@@ -49,18 +57,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jpbaena13/unc-react-*.git"
+    "url": "https://github.com/jpbaena13/unc-react-component-base.git"
   },
-  "keywords": [
-    "react",
-    "js",
-    "javascript",
-    "jpbaena13",
-    "react-component",
-  ],
   "bugs": {
-    "url": "https://github.com/jpbaena13/unc-react-*/issues"
+    "url": "https://github.com/jpbaena13/unc-react-component-base/issues"
   },
-  "homepage": "https://github.com/jpbaena13/unc-react-*.git"
-
+  "homepage": "https://github.com/jpbaena13/unc-react-component-base.git"
 }
