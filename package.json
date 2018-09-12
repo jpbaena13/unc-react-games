@@ -1,7 +1,7 @@
 {
-  "name": "unc-react-component-base",
-  "version": "1.0.0",
-  "description": "React Component Base",
+  "name": "unc-react-games",
+  "version": "0.1.0",
+  "description": "React Games for MOOC's",
   "main": "dist/index.js",
   "scripts": {
     "wp": "webpack",
@@ -15,7 +15,8 @@
     "js",
     "javascript",
     "jpbaena13",
-    "react-component"
+    "react-component",
+    "games MOOC"
   ],
   "author": "Juan Baena <juan.baena@unicodigital.co>",
   "license": "MIT",
@@ -52,15 +53,12 @@
     "webpack-modernizr-loader": "^4.0.1"
   },
   "dependencies": {
+    "bootstrap": "^4.1.3",
     "classnames": "^2.2.6",
     "prop-types": "^15.6.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jpbaena13/unc-react-component-base.git"
-  },
-  "bugs": {
-    "url": "https://github.com/jpbaena13/unc-react-component-base/issues"
-  },
-  "homepage": "https://github.com/jpbaena13/unc-react-component-base.git"
+    "url": "https://github.com/jpbaena13/unc-react-games.git"
+  }
 }

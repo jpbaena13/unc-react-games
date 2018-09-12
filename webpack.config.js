@@ -4,8 +4,8 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'unc-react-component-base.js',
-    library: 'uncReactComponentBase',
+    filename: 'unc-react-games.js',
+    library: 'unc-react-games',
     libraryTarget: 'umd',
     publicPath: '/dist/',
     umdNamedDefine: true

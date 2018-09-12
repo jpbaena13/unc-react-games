@@ -4,9 +4,18 @@ import React from 'react';
 
 import { render } from 'react-dom';
 
-import MyComponent from '../dist';
+import RouletteGame from '../src';
+import rouletteData from '../src/assets/js/roulette-game';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* eslint-disable no-console */
+const answerClick = (question, idx) => {
+  console.log(question, idx);
+};
+/* eslint-enable no-console */
 
 render(
-  <MyComponent />,
+  <RouletteGame data={rouletteData} answerClick={answerClick} />,
   document.getElementById('app')
 );

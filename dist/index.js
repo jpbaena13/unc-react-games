@@ -6,10 +6,10 @@ Object.defineProperty(exports, "__esModule", {
 Object.defineProperty(exports, "default", {
   enumerable: true,
   get: function get() {
-    return _MyComponent.default;
+    return _RouletteGame.default;
   }
 });
 
-var _MyComponent = _interopRequireDefault(require("./MyComponent"));
+var _RouletteGame = _interopRequireDefault(require("./RouletteGame"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
