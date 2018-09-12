@@ -5,6 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _default = {
+  title: 'Con este texto comienza el juego!!!',
   rouletteImage: '../src/assets/img/roulette-game/bg.png',
   baseImage: '../src/assets/img/roulette-game/base.png',
   pinImage: '../src/assets/img/roulette-game/pin.png',

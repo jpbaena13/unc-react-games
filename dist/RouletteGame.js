@@ -88,6 +88,7 @@ function (_React$PureComponent) {
       deg: 0,
       rotating: null,
       question: {
+        text: props.data.title,
         answers: []
       }
     };
@@ -116,7 +117,7 @@ function (_React$PureComponent) {
         className: "row unc-roulette-game"
       }, _react.default.createElement("div", {
         className: "col-sm-6"
-      }, _react.default.createElement("h3", null, this.state.question.text), _react.default.createElement("ul", {
+      }, _react.default.createElement("h3", null, this.state.question.text), this.state.rotating === false && _react.default.createElement("ul", {
         className: (0, _classnames.default)({
           answered: this.state.answered
         })

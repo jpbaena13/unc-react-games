@@ -14,7 +14,7 @@ class RouletteGame extends React.PureComponent {
       answered: false,
       deg: 0,
       rotating: null,
-      question: { answers: [] }
+      question: { text: props.data.title, answers: [] }
     };
 
     this.delta = 360 / props.data.questions.length;
@@ -68,13 +68,15 @@ class RouletteGame extends React.PureComponent {
       <div className="row unc-roulette-game">
         <div className="col-sm-6">
           <h3>{this.state.question.text}</h3>
-          <ul className={classNames({ answered: this.state.answered })}>
-            {this.state.question.answers.map((answer, idx) => (
-              <Answer {...answer} key={idx} idx={idx}
-                      onClick={this.answerClick}
-                      questionAnswered={this.state.answered}/>
-            ))}
-          </ul>
+          {this.state.rotating === false
+            && <ul className={classNames({ answered: this.state.answered })}>
+              {this.state.question.answers.map((answer, idx) => (
+                <Answer {...answer} key={idx} idx={idx}
+                        onClick={this.answerClick}
+                        questionAnswered={this.state.answered}/>
+              ))}
+            </ul>
+          }
         </div>
         <div className="col-sm-6">
           <div className="unc-roulette-base" style={styles.base}>
