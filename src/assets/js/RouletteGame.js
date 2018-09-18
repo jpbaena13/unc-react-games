@@ -1,8 +1,8 @@
 export default {
   title: 'Con este texto comienza el juego!!!',
-  rouletteImage: '../src/assets/img/roulette-game/bg.png',
-  baseImage: '../src/assets/img/roulette-game/base.png',
-  pinImage: '../src/assets/img/roulette-game/pin.png',
+  rouletteImage: '../src/assets/img/RouletteGame/bg.png',
+  baseImage: '../src/assets/img/RouletteGame/base.png',
+  pinImage: '../src/assets/img/RouletteGame/pin.png',
   questions: [
     {
       text: '¿Nuestra propuesta de valor atiende a un segmento de clientes desatendido?',

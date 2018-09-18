@@ -2,9 +2,9 @@ import React from 'react';
 
 import classNames from 'classnames';
 
-import './assets/css/roulette-game.css';
-
 import Answer from './RouletteAnswer';
+
+import '../assets/css/RouletteGame.css';
 
 class RouletteGame extends React.PureComponent {
   constructor(props) {
