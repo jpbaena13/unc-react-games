@@ -1,0 +1,23 @@
+.unc-word-search
+	display inline-block
+	margin 0 auto
+	
+	.unc-letter-box
+		align-items center
+		background-color white
+		border 1px solid #eee
+		cursor pointer
+		display inline-flex
+		height 2.5em
+		justify-content center
+		text-transform uppercase
+		transition .3s background-color linear
+		user-select none
+		width 2.5em
+		
+		&.unc-letter-selected
+			background-color #d39e00
+			
+		&.unc-letter-fixed
+			background-color green
+			color white

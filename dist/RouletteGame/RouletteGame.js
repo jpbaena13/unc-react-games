@@ -9,9 +9,9 @@ var _react = _interopRequireDefault(require("react"));
 
 var _classnames = _interopRequireDefault(require("classnames"));
 
-require("./assets/css/roulette-game.css");
-
 var _RouletteAnswer = _interopRequireDefault(require("./RouletteAnswer"));
+
+require("../assets/css/RouletteGame.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
